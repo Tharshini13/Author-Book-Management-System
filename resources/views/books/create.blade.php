@@ -27,33 +27,22 @@
 
           <div class="mb-3">
             <label class="form-label">Title</label>
-            <input type="text"
-                   name="title"
-                   class="form-control"
-                   required>
+            <input type="text" name="title" class="form-control" required>
           </div>
 
           <div class="mb-3">
-            <label class="form-label">ISBN</label>
-            <input type="text"
-                   name="isbn"
-                   class="form-control"
-                   required>
+            <label class="form-label">ISBN</label>  
+            <input type="text" name="isbn" class="form-control" required>
           </div>
 
           <div class="mb-3">
             <label class="form-label">Price</label>
-            <input type="number"
-                   step="0.01"
-                   name="price"
-                   class="form-control">
+            <input type="number" name="price" step="0.01" class="form-control">
           </div>
 
           <div class="mb-3">
             <label class="form-label">Published Year</label>
-            <input type="number"
-                   name="published_year"
-                   class="form-control">
+            <input type="number" name="published_year" class="form-control">    
           </div>
 
           <div class="text-end">

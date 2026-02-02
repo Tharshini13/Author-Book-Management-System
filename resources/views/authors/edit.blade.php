@@ -16,26 +16,17 @@
 
           <div class="mb-3">
             <label class="form-label">Name</label>
-            <input type="text"
-                   name="name"
-                   value="{{ old('name', $author->name) }}"
-                   class="form-control"
-                   required>
+            <input type="text" name="name" class="form-control" value="{{ old('name', $author->name) }}" required>
           </div>
 
           <div class="mb-3">
             <label class="form-label">Email</label>
-            <input type="email"
-                   name="email"
-                   value="{{ old('email', $author->email) }}"
-                   class="form-control">
+            <input type="email" name="email" class="form-control" value="{{ old('email', $author->email) }}">
           </div>
 
           <div class="mb-3">
             <label class="form-label">Bio</label>
-            <textarea name="bio"
-                      rows="3"
-                      class="form-control">{{ old('bio', $author->bio) }}</textarea>
+            <textarea name="bio" class="form-control" rows="3">{{ old('bio', $author->bio) }}</textarea>
           </div>
 
           <div class="text-end">
