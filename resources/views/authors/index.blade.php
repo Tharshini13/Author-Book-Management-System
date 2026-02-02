@@ -6,7 +6,7 @@
   <div class="card-header d-flex justify-content-between align-items-center">
     <h5 class="mb-0">Authors</h5>
     <a href="{{ route('authors.create') }}" class="btn btn-success btn-sm">
-      <i class="bi bi-plus-circle"></i> Add Author
+      + Add Author
     </a>
   </div>
 
