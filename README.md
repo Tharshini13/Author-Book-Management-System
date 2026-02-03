@@ -6,7 +6,7 @@ and request validation, as per the assignment requirements.
 
 ---
 
-## 🚀 Features
+## Features
 - Create, Read, Update, Delete (CRUD) Authors
 - Create, Read, Update, Delete (CRUD) Books
 - One-to-Many relationship between Author and Books
@@ -17,7 +17,7 @@ and request validation, as per the assignment requirements.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - PHP 8+
 - Laravel 10
 - MySQL
@@ -26,7 +26,7 @@ and request validation, as per the assignment requirements.
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 Follow the steps below to run the project locally:
 
